@@ -10,7 +10,7 @@ void main()
 	}
 	else
 	{
-		cout << "ket qua la:" << sum(x) << endl;
+		cout << "ket qua la:" << Sum(x) << endl;
 	}
 	system("pause");
 }

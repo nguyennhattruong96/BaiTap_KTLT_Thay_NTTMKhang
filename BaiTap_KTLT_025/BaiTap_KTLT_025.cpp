@@ -4,17 +4,23 @@
 int Input(string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
 		cin >> n;
-		if (n<0)
+
+		if (n <= 0)
 		{
-			cout << "nhap vao so lon hon 0";
+			cout << "So Nhap Vao La So Am Hoac La So 0 Hay Nhap Lai" << endl ;
 		}
-	} while (n<0);
+
+	} while (n <= 0);
+
 	return n;
 }
+
+
 
 void Output(int n)
 {
@@ -22,12 +28,14 @@ void Output(int n)
 }
 
 
+
 void TongUocSoChan(int n)
 {
 	int s = 0;
+
 	for (int i = 1; i <= n; i++)
 	{
-		if (n%i == 0)
+		if (n % i == 0)
 		{
 			if (i % 2 == 0)
 			{
@@ -35,5 +43,6 @@ void TongUocSoChan(int n)
 			}
 		}
 	}
-	cout << "tong uoc so le cua" << n << "la:" << s << endl;
+
+	cout << "tong uoc so le cua " << n << "la: " << s << endl;
 }

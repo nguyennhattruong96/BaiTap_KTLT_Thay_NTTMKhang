@@ -1,18 +1,19 @@
-#ifndef _BaiTap_KTLT_031_H_
-#define _BaiTap_KTLT_031_H_
+#ifndef __BaiTap_KTLT_032_H__
+#define __BaiTap_KTLT_032_H__
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
+#include <math.h>
 
 using namespace std;
 
 #pragma once
 
-int Input(string sMessage);
-void Output(int n);
+int Input (string sMessage);
+void Output (int n);
 
 
-bool KiemTraSoChinhPhuong(int n);
+bool KiemTraSoChinhPhuong (int n);
 
 #endif // !
 

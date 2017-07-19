@@ -1,17 +1,17 @@
-#ifndef _BaiTap_KTLT_030_H_
-#define _BaiTap_KTLT_030_H_
+#ifndef __BaiTap_KTLT_030_H__
+#define __BaiTap_KTLT_030_H__
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
 #pragma once
 
-int Input(string sMessage);
-void Output(int n);
+int Input (string sMessage);
+void Output (int n);
 
 
-void SoHoanThien(int n);
+void SoHoanThien (int n);
 
 #endif // !

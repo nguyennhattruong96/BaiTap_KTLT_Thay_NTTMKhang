@@ -1,15 +1,24 @@
-#include"BaiTap_KTLT_031.h"
+#include "BaiTap_KTLT_031.h"
+
+#include <iostream>
+#include <string>
+#include <math.h>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
-	if (KiemTraSoNguyenTo(x))
+	int x = Input ("nhap vao x: ");
+
+	if (KiemTraSoNguyenTo( x ))
 	{
-		cout << x << "la so nguyen to" << endl;
+		cout << x << " La so nguyen to" << endl;
 	}
+
 	else
 	{
-		cout << x << "khong la so nguyen to" << endl;
+		cout << x << " Khong la so nguyen to" << endl;
 	}
+
 	system("pause");
 }

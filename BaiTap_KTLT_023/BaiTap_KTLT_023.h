@@ -1,5 +1,5 @@
-#ifndef _BaiTap_KTLT_023_H_
-#define _BaiTap_KTLT_023_H_
+#ifndef __BaiTap_KTLT_023_H__
+#define __BaiTap_KTLT_023_H__
 
 #include<iostream>
 #include<string>
