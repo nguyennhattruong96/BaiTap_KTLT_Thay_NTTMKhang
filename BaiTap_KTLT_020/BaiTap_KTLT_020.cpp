@@ -4,14 +4,17 @@
 int Input(string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
 		cin >> n;
-		if (n<0)
+
+		if (n < 0)
 		{
 			cout << "nhap vao so lon hon 0";
 		}
+
 	} while (n<0);
 	return n;
 }
@@ -25,9 +28,9 @@ void UocSo(int n)
 {
 	for (int i = 1; i <= n; i++)
 	{
-		if (n%i == 0)
+		if (n % i == 0)
 		{
-			cout << "uoc so cua"<< n <<"la:" << i << endl;
+			cout << "uoc so cua "<< n <<"la: " << i << endl;
 		}
 	}
 }

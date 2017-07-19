@@ -1,8 +1,8 @@
 #ifndef __BaiTap_KTLT_002_H__
 #define __BaiTap_KTLT_002_H__
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
 using namespace std;
 #pragma once
@@ -10,7 +10,7 @@ using namespace std;
 int Input(string sMessage);
 void Output(int n);
 
-void Sum(int n);
+double Sum(int n);
 
 #endif
 

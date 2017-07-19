@@ -3,36 +3,37 @@
 int Input(string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
 		cin >> n;
-		if (n<0)
+
+		if (n <= 0)
 		{
-			cout << "nhap vao so lon hon 0";
+			cout << "So nhap vao la so 0 hoac so nho hon 0 hay nhap lai" << endl ;
 		}
-	} while (n<0);
+
+	} while (n <= 0);
+
 	return n;
 }
 
+
 void Output(int n)
 {
-	cout << "ket qua la:" << n << endl;
+	cout << "ket qua la: " << n << endl;
 }
+
+
 double Sum(int n)
 {
-	if (n <= 0)
+	double s = 0;
+
+	for (int i = 1; i <= n; i++)
 	{
-		return false;
-	}
-	else
-	{
-		double s = 0;
-		for (int i = 1; i <= n; i++)
-		{
-			s += 1.0 / (i *(i+1));
-		}
-		return s;
+		s += 1.0 / ( i * (i + 1) );
 	}
 
+	return s;
 }

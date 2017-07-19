@@ -1,8 +1,8 @@
-#ifndef _BaiTap_KTLT_005_H_
-#define _BaiTap_KTLT_005_H_
+#ifndef __BaiTap_KTLT_005_H__
+#define __BaiTap_KTLT_005_H__
 
-#include<iostream>
-#include<string>
+#include <iostream>
+#include <string>
 
 using namespace std;
 

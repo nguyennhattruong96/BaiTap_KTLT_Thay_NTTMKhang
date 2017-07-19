@@ -1,21 +1,25 @@
 #include "BaiTap_KTLT_009.h"
 
 
-
 int Input(string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
 		cin >> n;
-		if (n<0)
+
+		if (n <= 0)
 		{
-			cout << "nhap vao so lon hon 0";
+			cout << "So Nhap Vao La So Am Hoac So 0 Hay Nhap Lai";
 		}
-	} while (n<0);
+
+	} while (n <= 0);
+
 	return n;
 }
+
 
 void Output(int n)
 {
@@ -23,22 +27,16 @@ void Output(int n)
 }
 
 
-double Product(int n)
+double Tich (int n)
 {
-	if (n <= 0)
+	double s = 1;
+
+	for (int i = 1; i <= n; i++)
 	{
-		return false;
-	}
-	else
-	{
-		double s = 1;
-		for (int i = 1; i <= n; i++)
-		{
-			s = s*i;
-		}
-		return s;
+		s = s * i ;
 	}
 
+	return s;
 }
 
 

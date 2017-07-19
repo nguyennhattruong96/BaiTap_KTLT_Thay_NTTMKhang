@@ -1,5 +1,5 @@
-#ifndef _BaiTap_KTLT_009_H_
-#define _BaiTap_KTLT_009_H_
+#ifndef __BaiTap_KTLT_009_H__
+#define __BaiTap_KTLT_009_H__
 
 #include<iostream>
 #include<string>
@@ -11,6 +11,6 @@ using namespace std;
 int Input(string sMessage);
 void Output(int n);
 
-double Product(int n);
+double Tich(int n);
 
 #endif // !

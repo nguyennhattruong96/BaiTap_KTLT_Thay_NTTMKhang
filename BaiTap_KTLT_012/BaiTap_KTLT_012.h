@@ -1,5 +1,5 @@
-#ifndef _BaiTap_KTLT_012_H_
-#define _BaiTap_KTLT_012_H_
+#ifndef __BaiTap_KTLT_012_H__
+#define __BaiTap_KTLT_012_H__
 
 #include <iostream>
 #include<string>
@@ -13,8 +13,8 @@ int Input(string sMessage);
 void Output(int n);
 
 	 
-double Mu(int x, int n);
+//double Mu(int x, int n);
 
-//void Tong(int x, int n);
+double Tong(int x, int n);
 
 #endif // !

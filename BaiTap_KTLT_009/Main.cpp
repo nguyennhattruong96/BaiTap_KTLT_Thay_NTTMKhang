@@ -1,14 +1,15 @@
 #include "BaiTap_KTLT_009.h"
 
+#include<iostream>
+#include<string>
+
+using namespace std;
+
 void main()
 {
 	int x = Input("nhap vao so x:");
-	if (x == false)
-	{
-		cout << "khong co ket qua ";
-	}
-	else
-	{
-		cout << "ket qua la:" << Product(x) << endl;
-	}
+
+	cout << "ket qua la:" << Tich(x) << endl;
+
+	system("pause");
 }

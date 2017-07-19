@@ -1,9 +1,17 @@
 #include "BaiTap_KTLT_010.h"
 
+#include<iostream>
+#include<string>
+
+using namespace std;
+
 void main()
 {
-	int x = Input("nhap vao x:");
-	int n = Input("nhap vao n:");
-	cout << "ket qua la:" << pow(x,n) << endl;
+	int x = Input("Nhap vao x: ");
+	int n = Input("Nhap vao n: ");
+
+	cout << "ket qua la:" << LuyThua(x, n) << endl;
+
+	system("pause");
 	
 }

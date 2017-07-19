@@ -1,14 +1,15 @@
 #include "BaiTap_KTLT_007.h"
 
+#include<iostream>
+#include<string>
+
+using namespace std;
+
 void main()
 {
 	int x = Input("nhap vao so x:");
-	if (x == false)
-	{
-		cout << "khong co ket qua ";
-	}
-	else
-	{
-		cout << "ket qua la:" << Sum(x) << endl;
-	}
+
+	cout << "ket qua la:" << Sum(x) << endl;
+
+	system ("pause");
 }
