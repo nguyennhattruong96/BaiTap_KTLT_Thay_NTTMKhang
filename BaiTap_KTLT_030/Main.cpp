@@ -1,4 +1,4 @@
-#include"BaiTap_KTLT_030.h"
+#include "BaiTap_KTLT_030.h"
 
 #include <iostream>
 #include <string>

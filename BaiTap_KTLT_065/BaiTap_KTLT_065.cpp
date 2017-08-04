@@ -1,22 +1,27 @@
 #include "BaiTap_KTLT_065.h"
 
 
-int Input(string sMessage)
+int Input (string sMessage)
 {
 	int n;
+
 	cout << sMessage;
 	cin >> n;
+
 	return n;
 }
 
+
 void Output(int n)
 {
-	cout << "ket qua la:" << n << endl;
+	cout << "Ket qua la: " << n << endl;
 }
 
-void GiaiPhuongTrinhBacHai(float a, float b ,float c)
+
+void GiaiPhuongTrinhBacHai (float a, float b ,float c)
 {
 	float x1, x2, x;
+
 	if (a == 0)
 	{
 		if (b == 0)
@@ -31,12 +36,14 @@ void GiaiPhuongTrinhBacHai(float a, float b ,float c)
 				cout << "Phuong Trinh Vo Nghiem" << endl;
 			}
 		}
+
 		else
 		{
 			if (c == 0)
 			{
 				cout << "Phuong Trinh co Nghiem la 0" << endl;
 			}
+
 			else
 			{
 				x = (-c / b);
@@ -44,13 +51,16 @@ void GiaiPhuongTrinhBacHai(float a, float b ,float c)
 			}
 		}
 	}
+
 	else
 	{
-		float Delta = b*b - 4 * a*c;
+		float Delta = b * b - 4 * a*c;
+
 		if (Delta < 0)
 		{
 			cout << "Phuong trinh vo nghiem" << endl;
 		}
+
 		else
 		{
 			if (Delta == 0)
@@ -58,10 +68,12 @@ void GiaiPhuongTrinhBacHai(float a, float b ,float c)
 				x1 = x2 = -b / 2 * a;
 				cout << "phuong co nghiem kep:" << x1 << endl;
 			}
+
 			else
 			{
 				x1 = (-b + sqrt(Delta)) /(2 * a);
 				x2 = (-b - sqrt(Delta)) / (2 * a);
+
 				cout << "phuong trinh co nghiem la: " << x1 << endl;
 				cout << "phuong trinh co nghiem la: " << x2 << endl;
 			}

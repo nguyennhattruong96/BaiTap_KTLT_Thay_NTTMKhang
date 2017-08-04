@@ -1,19 +1,20 @@
-#ifndef _BaiTap_KTLT_090_H_
-#define _BaiTap_KTLT_090_H_
+#ifndef __BaiTap_KTLT_090_H__
+#define __BaiTap_KTLT_090_H__
 
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <math.h>
+
 
 using namespace std;
 
 #pragma once
 
-int Input(string sMessage);
-void Output(int n);
+int Input (string sMessage);
+void Output (int n);
 
 
-void Sum(int x);
+void LuyThua (int x, int n);
 
 #endif // !
 

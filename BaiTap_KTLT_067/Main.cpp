@@ -1,11 +1,17 @@
-#include"BaiTap_KTLT_067.h"
+#include "BaiTap_KTLT_067.h"
+
+#include <iostream>
+#include <string>
+#include <cmath>
+
+using namespace std;
 
 void main()
 {
-	float x = Input("nhap vao x:");
-	float n = Input("nhap vao n:");
+	float x = Input ("Nhap vao x: ");
+	float n = Input ("Nhap vao n: ");
 
-	Tong(x,n);
+	Tong ( x, n );
 
-	system("pause");
+	system ("pause");
 }

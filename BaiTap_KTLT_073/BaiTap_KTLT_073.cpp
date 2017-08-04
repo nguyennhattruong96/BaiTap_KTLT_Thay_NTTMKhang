@@ -11,7 +11,7 @@ int Input(string sMessage)
 
 		if (n < 0)
 		{
-			cout << "so ban nhap la so am hay nhap lai";
+			cout << "so ban nhap la so am hay nhap lai" << endl;
 		}
 	} while (n < 0);
 	return n;

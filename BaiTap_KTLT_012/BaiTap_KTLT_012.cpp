@@ -42,10 +42,9 @@ double Tong(int x, int n)
 {
 	int s = 0;
 
-	for (int  i = 0
-		; i <= n; i++)
+	for (int  i = 0; i <= n; i++)
 	{
-		s += pow(x, i);
+		s += pow (x, i);
 	}
 
 	return s;

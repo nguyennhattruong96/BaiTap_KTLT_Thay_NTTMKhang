@@ -8,7 +8,7 @@ using namespace std;
 
 void main()
 {
-	int x = Input ("nhap vao x: ");
+	int x = Input ("Nhap vao x: ");
 
 	Sum ( x );
 

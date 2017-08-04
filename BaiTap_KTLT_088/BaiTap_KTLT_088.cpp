@@ -1,9 +1,10 @@
 #include "BaiTap_KTLT_088.h"
 
 
-int Input(string sMessage)
+int Input (string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
@@ -11,23 +12,27 @@ int Input(string sMessage)
 
 		if (n < 0)
 		{
-			cout << "so ban nhap la so am hoac so 0 hay nhap lai";
+			cout << "So Nhap Vao La So Am Hay Nhap Lai" << endl;
 		}
+
 	} while (n < 0);
+
 	return n;
 }
 
-void Output(int n)
+
+void Output (int n)
 {
-	cout << "ket qua la:" << n << endl;
+	cout << "Ket qua la: " << n << endl;
 }
 
-void Tich(int x)
+
+void Sum (int x)
 {
-	int s = 1;
-	for (int i = 1; i <= x; i++)
+	int s = 0;
+	for (int i = 0; i <= x; i++)
 	{
-		s = s*i;
+		s += 1.0 * ( ( 2 * i ) + 1 ) / ( ( 2 * i ) + 2 );
 	}
 	cout << "ket qua la: " << s << endl;
 }

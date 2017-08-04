@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5E9EC1D1-B83B-4274-A89C-2230927F6353}</ProjectGuid>
+    <ProjectGuid>{01BF58C9-7F30-423A-A88D-177426DA8284}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>BaiTap_KTLT_044</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
@@ -139,11 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BaiTap_KTLT_044.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClInclude Include="BaiTap_KTLT_044.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BaiTap_KTLT_044.h" />
+    <ClCompile Include="BaiTap_KTLT_044.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

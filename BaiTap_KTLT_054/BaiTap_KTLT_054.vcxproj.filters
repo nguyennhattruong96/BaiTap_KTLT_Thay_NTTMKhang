@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BaiTap_KTLT_052\Main.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\BaiTap_KTLT_052\BaiTap_KTLT_054.cpp">
+    <ClCompile Include="BaiTap_KTLT_054.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\BaiTap_KTLT_052\BaiTap_KTLT_054.h">
+    <ClInclude Include="BaiTap_KTLT_054.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

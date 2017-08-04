@@ -8,9 +8,9 @@ using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao so x: ");
+	int x = Input( "Nhap vao so x: ");
 
-	cout << "ket qua la: " << Sum(x) << endl;
+	cout << "Ket qua la: " << Sum(x) << endl;
 	
 	system ("pause");
 }

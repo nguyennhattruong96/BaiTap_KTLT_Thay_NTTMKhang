@@ -10,12 +10,13 @@ int Input(string sMessage)
 		cout << sMessage;
 		cin >> n;
 
-		if (n < 0)
+		if (n <= 0)
 		{
-			cout << "nhap vao so lon hon 0";
+			cout << "So Nhap Vao La So Am Hoac So 0 Hay Nhap Lai";
 		}
 
-	} while (n<0);
+	} while (n <= 0);
+
 	return n;
 }
 

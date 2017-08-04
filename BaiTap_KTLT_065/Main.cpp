@@ -1,10 +1,19 @@
-#include"BaiTap_KTLT_065.h"
+#include "BaiTap_KTLT_065.h"
+
+#include <iostream>
+#include <string>
+#include <cmath>
+
+using namespace std;
+
 
 void main()
 {
-	float a = Input("nhap vao a:");
-	float b = Input("nhap vao b:");
-	float c = Input("nhap vao c:");
+	float a = Input ("Nhap vao a: ");
+	float b = Input ("Nhap vao b: ");
+	float c = Input ("Nhap vao c: ");
+
 	GiaiPhuongTrinhBacHai(a, b, c);
-	system("pause");
+	
+	system ("pause");
 }

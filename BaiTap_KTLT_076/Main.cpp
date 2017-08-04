@@ -1,16 +1,24 @@
-#include"BaiTap_KTLT_076.h"
+#include "BaiTap_KTLT_076.h"
+
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <math.h>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
+	int x = Input ("Nhap vao x: ");
 
-	if (KiemTra3k(x) == true)
+	if (KiemTra3k ( x ) == true)
 	{
-		cout << "so nay co dang 3K" << endl;
+		cout << "So nay co dang 3K" << endl;
 	}
+
 	else
 	{
-		cout << "so nay khong co dang 3K" << endl;
+		cout << "So nay khong co dang 3K" << endl;
 	}
 
 	system("pause");

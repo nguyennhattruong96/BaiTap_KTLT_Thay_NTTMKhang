@@ -1,11 +1,15 @@
 #include"BaiTap_KTLT_089.h"
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 void main()
 {
-	int x = Input("nhap vao x:");
-	int n = Input("nhap vao n:");
+	int x = Input("nhap vao x: ");
 
-	LuyThua(x,n);
+	Tich ( x );
 
-	system("pause");
+	system ("pause");
 }

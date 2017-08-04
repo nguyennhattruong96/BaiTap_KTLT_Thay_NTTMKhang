@@ -1,8 +1,16 @@
-#include"BaiTap_KTLT_038.h"
+#include "BaiTap_KTLT_038.h"
+
+#include <iostream>
+#include <string>
+#include <cmath>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
-	cout << "ket qua la:" << sum(x) << endl;
+	int x = Input ("Nhap vao x: ");
+
+	cout << "Ket qua la: " << Sum( x ) << endl;
+
 	system("pause");
 }

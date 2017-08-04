@@ -1,11 +1,17 @@
-#include"BaiTap_KTLT_072.h"
+#include "BaiTap_KTLT_072.h"
+
+#include <iostream>
+#include <string>
+#include <cmath>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
-	int n = Input("nhap vao n:");
+	int x = Input ("Nhap vao x: ");
+	int n = Input ("Nhap vao n: ");
 
-	cout << "key qua la : " << Tong(x, n) << endl;
+	cout << "Ket qua la: " << Tong (x, n) << endl;
 
 	system("pause");
 }

@@ -1,16 +1,24 @@
-#include"BaiTap_KTLT_036.h"
+#include "BaiTap_KTLT_036.h"
+
+#include <iostream>
+#include <string>
+#include <math.h>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
+	int x = Input ("Nhap vao x: ");
 
 	if (x == 1)
 	{
-		cout << "ket qua phep toan la 1" << endl;
+		cout << "ket qua phep toan la 1 " << endl;
 	}
+
 	else
 	{
-		cout << "ket qua la:" << Sum(x) << endl;
+		cout << "ket qua la: " << Sum(x) << endl;
 	}
+
 	system("pause");
 }

@@ -1,11 +1,16 @@
-#include"BaiTap_KTLT_080.h"
+#include "BaiTap_KTLT_080.h"
+
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
-	int n = Input("nhap vao n:");
+	int x = Input ("Nhap vao x: ");
+	int n = Input ("Nhap vao n: ");
 
-	Sum(x,n);
+	Sum ( x, n );
 
 	system("pause");
 }

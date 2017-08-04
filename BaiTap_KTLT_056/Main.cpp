@@ -1,15 +1,23 @@
-#include"BaiTap_KTLT_056.h"
+#include "BaiTap_KTLT_056.h"
+
+#include <iostream>
+#include <string>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
+	int x = Input ("Nhap vao day so nguyen x: ");
+
 	if (KiemTraSoLe(x))
 	{
-		cout << "day so nguyen " << x << " toan so le" << endl;
+		cout << "Day so nguyen " << x << " toan so le" << endl;
 	}
+
 	else
 	{
-		cout << "day so nguyen " << x << " co so chang" << endl;
+		cout << "Day so nguyen " << x << " co so chang" << endl;
 	}
+
 	system("pause");
 }

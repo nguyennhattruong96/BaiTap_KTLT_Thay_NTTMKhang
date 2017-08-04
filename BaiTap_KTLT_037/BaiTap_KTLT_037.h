@@ -1,9 +1,9 @@
-#ifndef _BaiTap_KTLT_037_H_
-#define _BaiTap_KTLT_037_H_
+#ifndef __BaiTap_KTLT_037_H__
+#define __BaiTap_KTLT_037_H__
 
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -13,7 +13,7 @@ int Input(string sMessage);
 void Output(int n);
 
 
-double sum(int n);
+double Sum(int n);
 
 #endif // !
 

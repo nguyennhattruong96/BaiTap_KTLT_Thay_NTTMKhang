@@ -1,35 +1,45 @@
 #include "BaiTap_KTLT_091.h"
 
 
-int Input(string sMessage)
+int Input (string sMessage)
 {
 	int n;
+
 	do
 	{
 		cout << sMessage;
 		cin >> n;
 
-		if (n <= 0)
+		if (n < 0)
 		{
-			cout << "so ban nhap la so am hoac 0 hay nhap lai";
+			cout << "So Nhap Vao La So Am Hay Nhap  Lai" << endl;
 		}
-	} while (n <= 0);
+
+	} while (n < 0);
+
 	return n;
 }
 
-void Output(int n)
+
+void Output (int n)
 {
-	cout << "ket qua la:" << n << endl;
+	cout << "Ket qua la: " << n << endl;
 }
 
-void Sum(int x ,int n)
+
+double Sum (int x )
 {
 	double s = 0;
+	double gt = 1;
+	
 
-	for (int i = 0; i <= n; i++)
+	for (int i = 1; i <= x; i++)
 	{
-		s += pow(x, i);
+		gt = gt * i;
+
+		s += gt;
 	}
-	cout << "ket qua la: " << s << endl;
+	
+	return s;
 }
 

@@ -1,15 +1,23 @@
 #include"BaiTap_KTLT_059.h"
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
 void main()
 {
-	int x = Input("nhap vao x:");
-	if (SoDoiXung(x))
+	int x = Input ("Nhap vao x: ");
+
+	if (SoDoiXung ( x ) )
 	{
-		cout << x << " la so doi xung" << endl;
+		cout << x << " La so doi xung" << endl;
 	}
+
 	else
 	{
-		cout << x << " khong la so doi xung" << endl;
+		cout << x << " Khong la so doi xung" << endl;
 	}
+
 	system("pause");
 }

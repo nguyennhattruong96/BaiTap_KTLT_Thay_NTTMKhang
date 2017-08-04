@@ -1,8 +1,15 @@
-#include"BaiTap_KTLT_054.h"
+#include"BaiTap_KTLT_052.h"
+
+#include<iostream>
+#include<string>
+
+using namespace std;
 
 void main()
 {
-	int x = Input("nhap vao x:");
-	SoLuongSoNhoNhat(x);
+	int x = Input("Nhap vao x: ");
+
+	cout << "Chu so nho nhat " << x << " la: " << KiemTraSoNhoNhat ( x ) << endl;
+
 	system("pause");
 }

@@ -1,10 +1,18 @@
 #include"BaiTap_KTLT_090.h"
 
+#include <iostream>
+#include <string>
+#include <math.h>
+
+
+using namespace std;
+
 void main()
 {
-	int x = Input("nhap vao x:");
+	int x = Input ("Nhap vao x: ");
+	int n = Input ("Nhap vao n: ");
 
-	Sum(x);
+	LuyThua( x, n );
 
 	system("pause");
 }

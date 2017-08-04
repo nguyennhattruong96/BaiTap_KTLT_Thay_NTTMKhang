@@ -13,7 +13,7 @@ int Input (string sMessage);
 void Output (int n);
 
 
-double Sum(int n);
+double Sum (int n);
 
 #endif // !
 

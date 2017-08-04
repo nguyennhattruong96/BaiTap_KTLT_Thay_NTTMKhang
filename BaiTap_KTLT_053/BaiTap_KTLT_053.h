@@ -1,9 +1,9 @@
 #ifndef _BaiTap_KTLT_053_H_
 #define _BaiTap_KTLT_053_H_
 
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
+
 
 using namespace std;
 

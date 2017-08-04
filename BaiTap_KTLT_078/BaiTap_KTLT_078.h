@@ -1,19 +1,18 @@
-#ifndef _BaiTap_KTLT_078_H_
-#define _BaiTap_KTLT_078_H_
+#ifndef __BaiTap_KTLT_078_H__
+#define __BaiTap_KTLT_078_H__
 
-#include<iostream>
-#include<string>
-#include<cmath>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
 #pragma once
 
-int Input(string sMessage);
-void Output(int n);
+int Input (string sMessage);
+void Output (int n);
 
 
-void UocSoNguyen(int x);
+void UocSoNguyen (int x);
 
 #endif // !
 

@@ -35,5 +35,5 @@ void Sum (int n)
 		s = sqrt (2 + s);
 	}
 
-	cout << "tong la: " << s << endl;
+	cout << "Tong la: " << s << endl;
 }
